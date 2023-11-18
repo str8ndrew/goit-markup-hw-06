@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/new-styles.css" />
 </head>
 <body>
     <!-- ШАПКА САЙТУ (HEADER) -->
@@ -40,17 +41,22 @@
     </li>
 </ul>
 </address>
+<button class="mobile-open-btn" type="button">
+    <svg class="mobile-open-btn-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-burger-btn"></use>
+    </svg>
+</button>
 </div>
     </header>
     <!-- ОСНОВНИЙ КОНТЕНТ (MAIN) -->
     <main class="main-content">
-<section class="title-section">
+<!-- <section class="title-section">
  <div class="container">
 <h1 class="main-title">Effective Solutions for Your Business</h1>
 <button type="button" class="content-button">Order Service</button>
 </div>
-</section>
-<section class="advantages-section">
+</section> -->
+<!-- <section class="advantages-section">
     <div class="container">
 <h2 class="visually-hidden">Title second section</h2>
 <ul class="advantages-list">
@@ -106,8 +112,8 @@
     </li>
 </ul>
 </div>
-</section>
-<section class="team-section">
+</section> -->
+<!-- <section class="team-section">
     <div class="container">
 <h2 class="team-title">Our Team</h2>
 
@@ -225,8 +231,8 @@
 </div>
 
 
-</section>
-<section class="portfolio-section">
+</section> -->
+<!-- <section class="portfolio-section">
     <div class="container">
     <h2 class="portfolio-title">Our Portfolio</h2>
    
@@ -324,10 +330,10 @@
 </li>
     </ul>
     </div>
-</section>
+</section> -->
     </main>
     <!-- ПІДВАЛ САЙТУ (FOOTER) -->
-    <footer class="page-footer">
+    <!-- <footer class="page-footer">
         <div class="container footer-flex">
             <div class="div-footer-logo">
         <a class="logotype logo-footer" href="./index.html">Web<span class="studio-style">Studio</span></a>
@@ -372,12 +378,12 @@
 </div>
         
         </div>
-    </footer>
+    </footer> -->
 
 
 
     <!-- BACKDROP CODE -->
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop">
         <div class="modal">
             <button class="modal-close-btn" type="button">
                 <svg class="modal-close-btn-icon" width="8" 
@@ -463,6 +469,57 @@
                 </div>
                 <button class="review-form-btn" type="submit">Send</button>
             </form>
+        </div>
+    </div> -->
+    <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+            <button class="mobile-close-btn" type="button">
+                <svg class="mobile-close-btn-icon" width="8" height="8">
+                    <use href="/images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <nav class="mobile-menu-nav">
+                <ul class="mobile-nav-list">
+                    <li class="mobile-nav-list-item">
+                        <a href="">Studio</a>
+                    </li>
+                    <li class="mobile-nav-list-item">
+                        <a href="">Portfolio</a>
+                    </li>
+                    <li class="mobile-nav-list-item">
+                        <a href="">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+                <address class="page-adress">
+                    <ul class="adress-list">
+                        <li class="adress-list-item">
+                            <a class="adress-list-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        </li>
+                        <li class="adress-list-item">
+                            <a class="adress-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                      
+                    </ul>
+                </address>
+                <div class="mobile-icons-div">
+                <ul class="team-icon-list">
+                    <li class="team-icon-item"><a href="inst" class="team-icon-link"><svg class="icon-svg-team" width="16" height="16">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg></a></li>
+                    <li class="team-icon-item"><a href="twit" class="team-icon-link"><svg class="icon-svg-team" width="16" height="16">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg></a></li>
+                    <li class="team-icon-item"><a href="facebook" class="team-icon-link"><svg class="icon-svg-team" width="16"
+                                height="16">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg></a></li>
+                    <li class="team-icon-item"><a href="linkedin" class="team-icon-link"><svg class="icon-svg-team" width="16"
+                                height="16">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg></a></li>
+                </ul>
+                </div>
         </div>
     </div>
 </body>
