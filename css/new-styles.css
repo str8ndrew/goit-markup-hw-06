@@ -139,10 +139,10 @@ color: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     }
-        .page-adress {
-            font-style: normal;
-            display: flex;
-        }
+                .mobile-page-adress {
+                    font-style: normal;
+                    display: flex;
+                }
     
         .adress-list {
             display: flex;
@@ -193,6 +193,63 @@ color: var(--NAVY-BLUE, #2E2F42);
                 }
 .icon-svg-team {
     fill: #f4f4fd;
+}
+
+/*  TITLE SECTION */
+.title-section {
+    background-color: #2e2f42;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-image: linear-gradient(var(--GREY, rgba(46, 47, 66, 0.70)), var(--GREY, rgba(46, 47, 66, 0.70))), url(../images/bg-mobile.jpg);
+    max-width: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* ADVANTAGES SECTION */
+.icon-li-div {
+    display: none;
+}
+.advantages-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages-list-title {
+color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.advantages-list-text {
+color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    width: 100%;
+}
+
+/* TEAM SECTION */
+.team-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.team-icon-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 }
 
