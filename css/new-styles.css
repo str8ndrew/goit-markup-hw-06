@@ -40,6 +40,19 @@ a {
     text-decoration: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .menu {
     display: none;
@@ -61,6 +74,7 @@ a {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
 .web-style {
@@ -70,6 +84,7 @@ a {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
 
@@ -212,16 +227,30 @@ color: var(--NAVY-BLUE, #2E2F42);
 
 .main-title {
     color: var(--WHITE, #FFF);
-    text-align: center
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.72px;
-    max-width: 200px;
+    max-width: 288px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
+    text-transform: capitalize;
 }
+
+
+color: var(--WHITE, #FFF);
+text-align: center;
+/* Header 2 */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+/* 111.111% */
+letter-spacing: 0.72px;
+
 /* ADVANTAGES SECTION */
 .icon-li-div {
     display: none;
