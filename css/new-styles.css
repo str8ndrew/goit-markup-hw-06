@@ -226,6 +226,14 @@ color: var(--NAVY-BLUE, #2E2F42);
     background-size: cover;
 }
 
+@media screen and (min-resolution: 192pdi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .title-section {
+        background-image: linear-gradient(var(--GREY, rgba(46, 47, 66, 0.70)), var(--GREY, rgba(46, 47, 66, 0.70))), url(../images/bg-mobile@2x.jpg);
+    }
+}
+
 .main-title {
     color: var(--WHITE, #FFF);
     text-align: center;
@@ -261,6 +269,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 /* ADVANTAGES SECTION */
 .advantages-section {
     margin-top: 96px;
+    margin-bottom: 96px;
 }
 
 
@@ -428,3 +437,11 @@ display: none;
         padding-right: 15px;
     }
 }
+
+
+
+
+
+
+
+
