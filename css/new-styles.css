@@ -66,6 +66,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 17.5px;
+    margin-bottom: 17.5px;
 }
 
 .logotype {
@@ -446,7 +448,7 @@ color: var(--SLATE, #434455);
 .portfolio-list {
     display: flex;
     column-gap: 24px;
-    row-gap: 48px;
+    /* row-gap: 48px; */
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -494,12 +496,17 @@ color: var(--SLATE, #434455);
     padding: 96px 16px;
     display: flex;
     background-image: linear-gradient(#2E2F42, #2E2F42);
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .logo-footer {
     display: inline-block;
+    margin-left: 86px;
     margin-bottom: 17.5px;
+}
+
+.div-footer-logo {
+    margin-bottom: 72px;
 }
 
 .footer-text {
@@ -521,6 +528,7 @@ color: var(--SLATE, #434455);
     line-height: 1.16;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin: auto;
 }
 
 .team-icon-list-footer {
@@ -529,6 +537,7 @@ color: var(--SLATE, #434455);
     gap: 16px;
     align-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .footer-title {
@@ -538,6 +547,11 @@ color: var(--SLATE, #434455);
     line-height: 24px;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    text-align: center;
+}
+
+.div-footer-svg {
+    margin-bottom: 72px;
 }
 
 .subscribe-div {
@@ -551,6 +565,7 @@ color: var(--SLATE, #434455);
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .subscribe-form {
@@ -589,6 +604,7 @@ color: var(--SLATE, #434455);
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    margin: auto;
 }
 
 
@@ -608,6 +624,14 @@ color: var(--SLATE, #434455);
 
     .menu {
         display: flex;
+        color: var(--NAVY-BLUE, #2E2F42);
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.32px;
+            display: flex;
+            gap: 40px;
     }
 
     .page-adress {
