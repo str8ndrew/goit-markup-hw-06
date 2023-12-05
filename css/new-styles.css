@@ -279,11 +279,11 @@ screen and (min-device-pixel-ratio: 2) {
 .icon-li-div {
     display: none;
 }
+
 .advantages-list {
     display: flex;
     flex-direction: column;
     gap: 72px;
-    
 }
 
 
@@ -971,6 +971,47 @@ display: none;
         .mobile-open-btn {
             display: none;
         }
+
+
+/* MAIN TITLE SECTION */
+.title-section {
+    background-image: linear-gradient(var(--GREY, rgba(46, 47, 66, 0.70)), var(--GREY, rgba(46, 47, 66, 0.70))), url(../images/bg-tablet.jpg);
+    max-width: 768px;
+    max-height: 436px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+
+@media screen and (min-resolution: 192pdi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .title-section {
+        background-image: linear-gradient(var(--GREY, rgba(46, 47, 66, 0.70)), var(--GREY, rgba(46, 47, 66, 0.70))), url(../images/bg-tablet@2x.jpg);
+    }
+}
+
+.main-title {
+    max-width: 496px;
+    font-size: 56px;
+ margin-bottom: 36px;
+}
+
+
+/* ADVANTAGES SECTION */
+
+
+.advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.advantages-list-item {
+    width: calc((100% - 356px) / 4);
+}
+
+
+
 }
 
 
