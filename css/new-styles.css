@@ -1007,8 +1007,15 @@ screen and (min-device-pixel-ratio: 2) {
 }
 
 .advantages-list-item {
-    width: calc((100% - 356px) / 4);
+    width: calc((100% - 24px) / 2);
 }
+
+
+/* TEAM SECTION */
+
+/* .team-list-item {
+    width: calc((100% - 24px) / 2);
+} */
 
 
 
