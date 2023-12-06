@@ -1013,10 +1013,16 @@ screen and (min-device-pixel-ratio: 2) {
 
 /* TEAM SECTION */
 
-/* .team-list-item {
-    width: calc((100% - 24px) / 2);
-} */
+.team-list-item {
+width: calc((100% - 24px) / 2);
+}
 
+
+
+.portfolio-list-item {
+    width: calc((100% - 24px) / 2);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 
 }
