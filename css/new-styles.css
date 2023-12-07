@@ -1014,7 +1014,7 @@ screen and (min-device-pixel-ratio: 2) {
 
 .team-list {
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 72px 24px;
 }
 
