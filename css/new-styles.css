@@ -866,6 +866,7 @@ color: var(--SLATE, #434455);
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
+        ishsye: 584px;
     }
 
 .page-nav {
@@ -1015,8 +1016,6 @@ screen and (min-device-pixel-ratio: 2) {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
-    margin-right: 100px;
-    margin-left: 100px;
 }
 
 .team-list-item {
@@ -1049,7 +1048,17 @@ screen and (min-device-pixel-ratio: 2) {
 
 /* FOOTER STYLE */
 
+.footer-flex {
+    display: flex;
+    align-items: baseline;
+}
 
+.footer-list {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
 
 }
 
