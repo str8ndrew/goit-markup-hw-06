@@ -492,10 +492,16 @@ color: var(--SLATE, #434455);
 
 .page-footer {
     background-color: #2e2f42;
-    padding: 96px 16px;
+    padding-top: 96px;
+    padding-bottom: 96px;
     display: flex;
-    background-image: linear-gradient(#2E2F42, #2E2F42);
-    /* justify-content: space-between; */
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
 }
 
 .logo-footer {
@@ -504,9 +510,9 @@ color: var(--SLATE, #434455);
     margin-bottom: 17.5px;
 }
 
-.div-footer-logo {
+/* .div-footer-logo {
     margin-bottom: 72px;
-}
+} */
 
 .footer-text {
     color: var(--CLOUD, #F4F4FD);
@@ -517,6 +523,7 @@ color: var(--SLATE, #434455);
     letter-spacing: 0.32px;
     background-color: var(--NAVY-BLUE, #2E2F42);
     max-width: 264px;
+    text-align: start;
 }
 
 .studio-style {
@@ -549,9 +556,9 @@ color: var(--SLATE, #434455);
     text-align: center;
 }
 
-.div-footer-svg {
+/* .div-footer-svg {
     margin-bottom: 72px;
-}
+} */
 
 .subscribe-div {
     margin-left: auto;
@@ -592,6 +599,7 @@ color: var(--SLATE, #434455);
     min-width: 165px;
     height: 40px;
     display: flex;
+    gap: 16px;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
@@ -1013,6 +1021,9 @@ screen and (min-device-pixel-ratio: 2) {
 .team-container {
     max-width: 584px;
 }
+.team-section {
+    padding-bottom: 96px;
+}
 
 
 .team-list {
@@ -1058,34 +1069,36 @@ screen and (min-device-pixel-ratio: 2) {
 
 .page-footer {
     background-color: #2e2f42;
-    padding: 100px 0;
-    display: flex;
-    background-image: linear-gradient(#2E2F42, #2E2F42);
-    justify-content: space-between;
+    padding-left: 108px;
+    padding-right: 108px;
 }
 
-.logo-footer {
-    display: inline-block;
-    margin-bottom: 16px;
-}
 
 .footer-flex {
     display: flex;
-    align-items: baseline;
-    flex-direction: column;
+ flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 72px 24px;
 }
 
 
-.footer-list {
+/* .footer-list {
     display: flex;
     gap: 16px;
     align-items: center;
     justify-content: center;
-}
+} */
+
 .subscribe-form {
     display: flex;
+    flex-direction: row;
     gap: 24px;
 }
+
+/* .subscribe-div {
+    margin-left: 108px;
+} */
 
 .team-icon-list-footer {
     display: flex;
