@@ -1010,9 +1010,8 @@ screen and (min-device-pixel-ratio: 2) {
 
 
 /* TEAM SECTION */
-.team-section {
-max-width: 584px;
-  
+.team-container {
+    max-width: 584px;
 }
 
 
