@@ -1051,16 +1051,48 @@ screen and (min-device-pixel-ratio: 2) {
 
 /* FOOTER STYLE */
 
+/* .page-footer {
+    display: flex;
+    flex-direction: row;
+} */
+
+.page-footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+    display: flex;
+    background-image: linear-gradient(#2E2F42, #2E2F42);
+    justify-content: space-between;
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-flex {
     display: flex;
     align-items: baseline;
+    flex-direction: column;
 }
+
 
 .footer-list {
     display: flex;
     gap: 16px;
     align-items: center;
     justify-content: center;
+}
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+}
+
+.team-icon-list-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-content: center;
+    align-items: center;
 }
 
 }
