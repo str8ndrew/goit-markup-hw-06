@@ -866,7 +866,6 @@ color: var(--SLATE, #434455);
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
-        ishsye: 584px;
     }
 
 .page-nav {
@@ -1011,6 +1010,11 @@ screen and (min-device-pixel-ratio: 2) {
 
 
 /* TEAM SECTION */
+.team-section {
+max-width: 584px;
+  
+}
+
 
 .team-list {
     flex-direction: row;
