@@ -580,18 +580,19 @@ color: var(--SLATE, #434455);
 }
 
 .subscribe-input {
-    width: 264px;
+    width: 288px;
     height: 40px;
     background-color: transparent;
     border-radius: 4px;
     border: 1px solid var(--WHITE, #FFF);
     color: var(--WHITE, #FFF);
     font-size: 12px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding-left: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    opacity: 0.3;
+    transition: border-color 250ms linear;    
 }
 
 .subscribe-btn {
@@ -879,10 +880,11 @@ color: var(--SLATE, #434455);
 .page-nav {
             display: flex;
             align-items: center;
+            /* margin-right: auto; */
         }
 
     .logotype {
-        margin-right: 120px;
+        margin-right: 72px;
     }
 
         
@@ -893,16 +895,19 @@ color: var(--SLATE, #434455);
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
+/* .adress-container {
+padding: 24px 0px;
+} */
     .menu {
         display: flex;
         color: var(--NAVY-BLUE, #2E2F42);
-            font-family: Roboto;
             font-size: 16px;
             font-weight: 500;
             line-height: 1.5;
             letter-spacing: 0.32px;
-            display: flex;
             gap: 40px;
+           
     }
         .menu-item {
     
@@ -963,7 +968,12 @@ color: var(--SLATE, #434455);
 
 .adress-list-link {
     color: #434455;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.16;
+        font-style: normal;
+        letter-spacing: 0.02em;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress-list-link:hover,
@@ -1009,11 +1019,23 @@ screen and (min-device-pixel-ratio: 2) {
 .advantages-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+row-gap: 72px;
+justify-content: center;
 }
 
 .advantages-list-item {
     width: calc((100% - 24px) / 2);
+}
+
+.advantages-list-text {
+    color: #434455;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.advantages-list-title {
+    text-align: start;
 }
 
 
@@ -1029,7 +1051,7 @@ screen and (min-device-pixel-ratio: 2) {
 .team-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 72px 24px;
+    gap: 64px 24px;
 }
 
 .team-list-item {
@@ -1073,6 +1095,9 @@ screen and (min-device-pixel-ratio: 2) {
     padding-right: 108px;
 }
 
+.div-footer-logo {
+    text-align: start;
+}
 
 .footer-flex {
     display: flex;
@@ -1096,9 +1121,13 @@ screen and (min-device-pixel-ratio: 2) {
     gap: 24px;
 }
 
-/* .subscribe-div {
+.subscribe-text {
+    text-align: start;
+}
+
+.subscribe-div {
     margin-left: 108px;
-} */
+}
 
 .team-icon-list-footer {
     display: flex;
