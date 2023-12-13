@@ -559,9 +559,9 @@ color: var(--SLATE, #434455);
     margin-bottom: 72px;
 } */
 
-.subscribe-div {
+/* .subscribe-div {
     margin-left: auto;
-}
+} */
 
 .subscribe-text {
     color: var(--WHITE, #FFF);
@@ -1123,10 +1123,6 @@ justify-content: center;
 
 .subscribe-text {
     text-align: start;
-}
-
-.subscribe-div {
-    margin-left: 108px;
 }
 
 .team-icon-list-footer {
