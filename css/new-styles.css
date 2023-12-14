@@ -649,7 +649,6 @@ color: var(--SLATE, #434455);
     width: 288px;
     min-height: 623px;
     background-color: #FCFCFC;
-    ;
     border-radius: 4px;
     padding-top: 72px;
     padding-left: 24px;
@@ -1131,6 +1130,11 @@ justify-content: center;
     gap: 16px;
     align-content: center;
     align-items: center;
+}
+
+.modal {
+    width: 408px;
+    height: 584px;
 }
 
 }
