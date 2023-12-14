@@ -19,6 +19,8 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -344,6 +346,20 @@ color: var(--SLATE, #434455);
     flex-direction: column;
     gap: 72px;
     align-items: center;
+}
+
+.team-icon-link:hover,
+.team-icon-link:focus {
+    background-color: #404bbf;
+}
+
+.icon-svg-team {
+    fill: #f4f4fd;
+}
+
+.icon-svg-team:hover,
+.icon-svg-team:focus {
+    fill: #31D0AA;
 }
 
 .team-list-item {
@@ -1225,6 +1241,75 @@ screen and (min-device-pixel-ratio: 2) {
     letter-spacing: 0.02em;
 }
 
+
+.team-title {
+    color: #2E2F42;
+        text-align: center;
+        font-family: Roboto, sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        margin-bottom: 72px;
+}
+
+.team-list {
+    flex-wrap: nowrap;
+}
+
+.team-list-title {
+        color: #2E2F42;
+            font-family: Roboto, sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.20;
+            letter-spacing: 0.02em;
+            text-align: center;
+            margin-bottom: 8px;
+}
+
+.team-list-text {
+    color: #434455;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 8px;
+}
+
+.portfolio-list {
+    row-gap: 48px;
+}
+
+.portfolio-list-item {
+    width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.page-footer {
+    padding: 100px 0;
+}
+
+.footer-flex {
+    flex-wrap: nowrap;
+    gap: 0px;
+}
+
+
+.subscribe-form {
+    display: flex;
+        flex-direction: row;
+        gap: 24px;
+}
+
+.footer-list {
+    margin-right: 80px;
+}
+
+.div-footer-logo {
+    margin-right: 120px;
+}
 
 }
 
