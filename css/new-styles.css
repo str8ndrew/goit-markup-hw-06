@@ -265,6 +265,7 @@ color: var(--NAVY-BLUE, #2E2F42);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
 
 @media screen and (min-resolution: 192pdi),
@@ -1211,6 +1212,12 @@ justify-content: center;
     gap: 40px;
 }
 
+
+.adress-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 .adress-list-link {
     font-size: 16px;
     line-height: 1.5;
@@ -1391,6 +1398,10 @@ screen and (min-device-pixel-ratio: 2) {
 
 .footer-title {
     text-align: left;
+}
+
+.footer-text {
+    width: 264px;
 }
 
 .footer-list {
