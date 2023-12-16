@@ -255,6 +255,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 
 /*  TITLE SECTION */
+
 .title-section {
     background-color: #2e2f42;
     padding-top: 72px;
@@ -1052,6 +1053,7 @@ display: none;
     max-height: 436px;
     padding-top: 112px;
     padding-bottom: 112px;
+    margin: 0 auto;
 }
 
 @media screen and (min-resolution: 192pdi),
