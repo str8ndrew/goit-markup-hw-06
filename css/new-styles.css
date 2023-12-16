@@ -1380,6 +1380,19 @@ screen and (min-device-pixel-ratio: 2) {
         gap: 24px;
 }
 
+.subscribe-input {
+    width: 264px;
+    opacity: 1;
+}
+
+.subscribe-text {
+    text-align: left;
+}
+
+.footer-title {
+    text-align: left;
+}
+
 .footer-list {
     margin-right: 80px;
 }
@@ -1392,11 +1405,6 @@ screen and (min-device-pixel-ratio: 2) {
 
 
 
-
-
-.modal {
-    
-}
 
 }
 
