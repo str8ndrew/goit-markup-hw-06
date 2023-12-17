@@ -960,7 +960,7 @@ color: var(--SLATE, #434455);
 .page-nav {
             display: flex;
             align-items: center;
-            /* margin-right: auto; */
+            margin-right: auto;
         }
 
     .logotype {
@@ -1032,7 +1032,6 @@ padding: 24px 0px;
 .adress-list {
     display: flex;
     gap: 12px;
-    margin-left: 121px;
 }
 
 .adress-list-item {
@@ -1209,8 +1208,9 @@ justify-content: center;
     text-align: start;
 }
 
-.logotype {
+.logo-footer {
     margin-right: 0;
+
 }
 
 .team-icon-list-footer {
