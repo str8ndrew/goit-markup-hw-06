@@ -1187,6 +1187,8 @@ justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 72px 24px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 
@@ -1205,6 +1207,10 @@ justify-content: center;
 
 .subscribe-text {
     text-align: start;
+}
+
+.logotype {
+    margin-right: 0;
 }
 
 .team-icon-list-footer {
