@@ -340,8 +340,7 @@ screen and (min-device-pixel-ratio: 2) {
 
 /* ADVANTAGES SECTION */
 .advantages-section {
-    margin-top: 96px;
-    margin-bottom: 96px;
+   padding: 96px 0;
 }
 
 
