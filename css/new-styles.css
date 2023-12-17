@@ -629,6 +629,11 @@ color: var(--SLATE, #434455);
     justify-content: center;
 }
 
+.hover-footer-link:hover,
+.hover-footer-link:focus {
+    background-color: #31d0aa;
+}
+
 .footer-title {
     color: var(--WHITE, #FFF);
     letter-spacing: 0.02em;
